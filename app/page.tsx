@@ -21,6 +21,7 @@ export default function Home() {
         name,
         email,
       });
+      console.log(response)
     } catch (err) {
       console.log(err);
     }
